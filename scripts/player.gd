@@ -29,6 +29,7 @@ func _input(event: InputEvent) -> void:
 
 func _physics_process(delta: float) -> void:
 	
+	
 	if !animation_player.is_playing():
 		is_locked = false
 	
